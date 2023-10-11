@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #ee9494;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,200px);
+    gap: 1rem;
+    padding: 4rem;
+    border: 2px solid whitesmoke;
+    /* justify-items: end; horizontal axis*/
+    align-items: stretch; 
+    
+}
+
+.item{
+    /* height: 100px;
+    width: 100px; */
+    background-color: #62ee05;
+    border: 5px solid white;
+    /* justify-self: end; placed at the end of the particular cell for horizontal axis */
+    /* align-self: end; vertical axis */
+
+    /* place-self: stretch;  for both shorthand */
+    color: rgb(3, 18, 223);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: bolder; */
+    font-family: cursive;
+}
